@@ -8,8 +8,8 @@ ports:
 
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - command: pwd
-  - command: echo "123123"
+  - command: date
+  - command: date && sleep 10 && date
 
 vscode:
   extensions:
