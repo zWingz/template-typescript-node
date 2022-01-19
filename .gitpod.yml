@@ -8,13 +8,8 @@ ports:
 
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - command: |
-      mongod
-  - init: |
-      npm install
-      npm run build
-    command: |
-      npm run start
+  - command: pwd
+  - command: echo "123123"
 
 vscode:
   extensions:
