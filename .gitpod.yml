@@ -10,6 +10,7 @@ ports:
 tasks:
   - command: date
   - command: date && sleep 10 && date
+  - command: echo 'hello world'
 
 vscode:
   extensions:
